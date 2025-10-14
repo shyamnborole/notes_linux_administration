@@ -11,12 +11,14 @@
             "id": "9954ba9db0c84d49",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Linuxadminday5.excalidraw.md"
+                "file": "Linuxadminday5notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Linuxadminday5.excalidraw"
+              "icon": "lucide-file",
+              "title": "Linuxadminday5notes"
             }
           }
         ]
@@ -165,20 +167,21 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "9954ba9db0c84d49",
   "lastOpenFiles": [
     "Linuxadminday5.excalidraw.md",
     "Linuxadminday4.excalidraw.md",
+    "Linuxadminday5notes.md",
     "2025-10-14.md",
     "Untitled 1.canvas",
     "Linuxadminday2.excalidraw.md",
     "linuxadminday2.md",
     "Linux administration.excalidraw.md",
     "Untitled.canvas",
-    "Linuxadminday4 notes.md",
     "Linuxainday3.excalidraw.md",
     "linuxadmin.md"
   ]
