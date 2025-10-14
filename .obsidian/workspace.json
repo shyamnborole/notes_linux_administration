@@ -11,12 +11,14 @@
             "id": "76b30b458c0c2999",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Linuxadminday2.excalidraw.md"
+                "file": "Linuxadminday4 notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Linuxadminday2.excalidraw"
+              "icon": "lucide-file",
+              "title": "Linuxadminday4 notes"
             }
           }
         ]
@@ -170,8 +172,10 @@
   },
   "active": "76b30b458c0c2999",
   "lastOpenFiles": [
-    "Linux administration.excalidraw.md",
+    "Linuxadminday4.excalidraw.md",
+    "Linuxadminday4 notes.md",
     "Linuxadminday2.excalidraw.md",
+    "Linux administration.excalidraw.md",
     "linuxadmin.md"
   ]
 }
