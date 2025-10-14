@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "b15ce712048beac5",
+        "id": "ea2112416d48ca23",
         "type": "tabs",
         "children": [
           {
-            "id": "76b30b458c0c2999",
+            "id": "9954ba9db0c84d49",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Linuxadminday4 notes.md",
-                "mode": "source",
-                "source": false
+                "file": "Linuxadminday5.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Linuxadminday4 notes"
+              "icon": "excalidraw-icon",
+              "title": "Linuxadminday5.excalidraw"
             }
           }
         ]
@@ -170,12 +168,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "76b30b458c0c2999",
+  "active": "9954ba9db0c84d49",
   "lastOpenFiles": [
     "Linuxadminday4.excalidraw.md",
-    "Linuxadminday4 notes.md",
+    "2025-10-14.md",
+    "Untitled 1.canvas",
     "Linuxadminday2.excalidraw.md",
+    "linuxadminday2.md",
     "Linux administration.excalidraw.md",
+    "Untitled.canvas",
+    "Linuxadminday5.excalidraw.md",
+    "Linuxadminday4 notes.md",
+    "Linuxainday3.excalidraw.md",
     "linuxadmin.md"
   ]
 }
