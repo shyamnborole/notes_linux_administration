@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "all_config_files.md",
+                "file": "all_config_files_concepts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "all_config_files"
+              "title": "all_config_files_concepts"
             }
           }
         ]
@@ -171,16 +171,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "de6092ccf61afb33",
+  "active": "9954ba9db0c84d49",
   "lastOpenFiles": [
+    "Linuxadminday2.excalidraw.md",
+    "linuxadminday2.md",
+    "all_config_files_concepts.md",
     "2025-10-14.md",
-    "all_config_files.md",
     "Linuxadminday5.excalidraw.md",
     "Linuxadminday4.excalidraw.md",
     "Linuxadminday5notes.md",
     "Untitled 1.canvas",
-    "Linuxadminday2.excalidraw.md",
-    "linuxadminday2.md",
     "Linux administration.excalidraw.md",
     "Untitled.canvas",
     "Linuxainday3.excalidraw.md",
