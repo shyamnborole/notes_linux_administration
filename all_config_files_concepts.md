@@ -53,6 +53,7 @@
         ]
       }
     ],
+
     // logging settings
     "loggers": [
       {
@@ -70,10 +71,11 @@
 }
 
 ```
+-------------------------
+
  >==**DNS**==
  >	package name : bind-utils
  >	 service name : named
-   
 
 | File/Directory                                  | Purpose                                                                          |
 | ----------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -137,14 +139,51 @@ zone "1.168.192.in-addr.arpa" IN {
 
 ```
 >simple thing is to just make an copy of /var/named/named.localhost for the zone file
-
-
-
+--------------------------
 
 >==**USER MANAGEMENT**==
 	`sudo usermod -G xyz abc ` --------makes abc user the member of xyz group, whatever file                                                               has owner group as xyz, the abc user will get access to                                                                that file. a user can be a member of multiple group, this                                                              is called as secondary group.                                              To add user `abc` to supplementary group(s) without removing existing groups, use:  
 	`sudo usermod -aG xyz abc`
 	`sudo usermod -g xyz abc`--------adds the abc user in the xyz group, whatever he creates                                                              by default the xyz group will have access to the file and                                                              the file group owner will be xyz group. A user can have                                                              only one primary group.
+-------------------------------------------------------------------------
 
 >==**Apache Web Server**==
->
+> package name ----httpd
+> 	`/etc/httpd/conf` 
+> 		`httpd.conf` -------------for httpd main service configuration file
+> 			Listen 80 --------------add this
+> 			DirectoryIndex    index.html     default.html --------default sites format
+> 	`/var/www/html` --------------website files
+> 			index.html ----------website file(should be in index.html only)
+> 	`/var/log/httpd` ----------for logs(every service will store the logs in this directory)
+> 	`/etc/httpd/conf.d`
+> 		`virtualhost.conf` -------------for multiple website we have to create this file and                                                           store the info/code given below edit it according to                                                        the website config.
+```
+><VirtualHost *:80>
+    ServerAdmin [email protected]
+    ServerName site1.com
+    ServerAlias www.site1.com
+    DocumentRoot /var/www/site1.com/public_html
+    DirectoryIndex index.html
+
+    ErrorLog /var/log/httpd/site1.com-error.log
+    CustomLog /var/log/httpd/site1.com-access.log combined
+</VirtualHost>
+<VirtualHost *:80>
+    ServerAdmin [email protected]
+    ServerName site2.com
+    ServerAlias www.site2.com
+    DocumentRoot /var/www/site2.com/public_html
+    DirectoryIndex index.html
+
+    ErrorLog /var/log/httpd/site2.com-error.log
+    CustomLog /var/log/httpd/site2.com-access.log combined
+    //combined means it gives the website accesing user logs together
+</VirtualHost>
+
+```
+
+--------------------------------------------------------------------------
+==**Include conf.d/*.conf*** -----------------every service will have this added it tells that include every                                                                  configuration file in the current directory==.
+
+------------------------------
